@@ -1,0 +1,16 @@
+{
+  "name": "npm-study",
+  "version": "1.0.0",
+  "description": "NPM Study and Practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alif",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}
