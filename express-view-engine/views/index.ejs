@@ -1,0 +1,15 @@
+  <h1>Hello World</h1>
+  
+  <h2>Hi, <%= name %></h2>
+
+  <h4>Daftar Mahasiswa</h4>
+  <% if (students.length < 1) { %>
+    <p>Belum ada data mahasiswa</p>
+  <% } else { %>
+    <% students.forEach(std => { %>
+      <ul>
+        <li>Name: <%= std.name %></li>
+        <li>Age: <%= std.age %></li>
+      </ul>
+    <% }) %>
+  <% } %>
